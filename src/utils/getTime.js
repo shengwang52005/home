@@ -73,25 +73,25 @@ export const helloInit = () => {
   const hour = new Date().getHours();
   let hello = null;
   if (hour < 6) {
-    hello = "凌晨好";
+    hello = "凌晨好~不会又熬了一个通宵吧？";
   } else if (hour < 9) {
-    hello = "早上好";
+    hello = "早上好ww~吃早饭了吗？";
   } else if (hour < 12) {
-    hello = "上午好";
+    hello = "上午好~上学咯~";
   } else if (hour < 14) {
-    hello = "中午好";
+    hello = "中午好~今天中午吃些什么呢？";
   } else if (hour < 17) {
-    hello = "下午好";
+    hello = "下午好~烂漫的下午呢~";
   } else if (hour < 19) {
-    hello = "傍晚好";
+    hello = "傍晚好~太阳要消失惹！";
   } else if (hour < 22) {
-    hello = "晚上好";
+    hello = "晚上好~一天要结束了ww";
   } else {
-    hello = "夜深了";
+    hello = "夜深了w 晚安~";
   }
   ElMessage({
     dangerouslyUseHTMLString: true,
-    message: `<strong>${hello}</strong> 欢迎来到我的主页`,
+    message: `<strong>${hello}</strong> 欢迎来到我的主页吖~`,
   });
 };
 

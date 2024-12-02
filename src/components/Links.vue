@@ -46,7 +46,7 @@ import { Icon } from "@vicons/utils";
 import { Link, Blog, CompactDisc, Cloud, Compass, Book, Fire, LaptopCode } from "@vicons/fa"; // 注意使用正确的类别
 import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { Pagination, Mousewheel } from "swiper/modules";
+import { Pagination, Mousewheel } from "swiper/modules"; 
 import siteLinks from "@/assets/siteLinks.json";
 
 const store = mainStore();
